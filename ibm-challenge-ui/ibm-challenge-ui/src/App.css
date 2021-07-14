@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+  flex-wrap: wrap;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.main-container h1 {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 56px;
+}

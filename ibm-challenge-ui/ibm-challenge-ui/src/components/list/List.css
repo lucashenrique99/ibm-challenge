@@ -1,0 +1,43 @@
+.list-container {
+    width: 80%;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, calc(30% - 16px));
+    column-gap: 16px;
+    row-gap: 16px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 599px) {
+    .list-container {
+        grid-template-columns: 80%;
+        justify-content: center;
+    }
+}
+
+.list-container .task-container {
+    background: #FAFAFA;
+    border-radius: 8px;
+    padding: 8px 16px 16px;
+}
+
+.list-container .task-container div {
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.list-container .task-container button {
+    width: max-content;
+}
+
+.edit-button {
+    color: #1652f0;
+    background: transparent;
+    font-size: 14px;
+}
+
+.delete-button {
+    color: #df5f67;
+    background: transparent;
+    font-size: 14px;
+}
